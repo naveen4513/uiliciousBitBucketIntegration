@@ -12,8 +12,8 @@ import java.util.Objects;
 public class uiliciousBitBucketIntegration {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-
-        ProcessBuilder processBuilder = new ProcessBuilder("C:\\Users\\naveen.gupta\\Desktop\\uilicious-test.bat");
+        
+        ProcessBuilder processBuilder = new ProcessBuilder(System.getProperty("user.dir")+"\\"+"uilicious-test.bat");
 
         try {
 
